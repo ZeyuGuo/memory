@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 
 
 export default {
@@ -15,8 +14,12 @@ export default {
   },
   data() {
     return {
-      active: 0
+
     }
   }
 }
 </script>
+
+<style scoped>
+
+</style>

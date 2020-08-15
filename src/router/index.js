@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const Home = () => import('views/home/Home')
-const Album = () => import('views/home/Home')
-const Us = () => import('views/home/Home')
+const Album = () => import('views/album/Album')
+const Us = () => import('views/us/Us')
 
 Vue.use(VueRouter)
 

@@ -21,6 +21,5 @@
   html,body,#app{
     height: 100%;
     background: linear-gradient(rgb(254,211,220), rgb(254,245,243));
-    padding: 0 2px;
   }
 </style>

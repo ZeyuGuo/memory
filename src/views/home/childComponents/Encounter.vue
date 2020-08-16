@@ -49,14 +49,18 @@
     name: "Encounter",
     data() {
       return {
-        encounterTime: new Date(2020,8,10)
+        encounterTime: new Date(2020,8,25)
       }
     },
     computed: {
       loveTime() {
         let today = new Date();
         let currentDay =new Date(today.getFullYear(),today.getMonth()+1, today.getDate())
-        return (currentDay.getTime()-this.encounterTime.getTime())/(1000 * 60 * 60 * 24);
+        let days =(currentDay.getTime()-this.encounterTime.getTime())/(1000 * 60 * 60 * 24)
+        if(days >= 0)
+          return days + 1
+        else
+          return "-"
       }
     }
   }

@@ -1,15 +1,15 @@
 <template>
   <div class="album">
-    <h2 style="text-align: center;font-family: 'Comic Sans MS'">Memorys</h2>
+    <h2 style="text-align: center;font-family: 'album';font-size: 32px">回忆</h2>
     <van-swipe class="swipe" :autoplay="3000" :height="getHeight">
       <van-swipe-item v-for="(image, index) in images" :key="index">
-        <van-image :src="image"  fit="cover" width="100%" oncontextmenu="return false;" />
+        <van-image :src="image"  fit="cover" width="100%" lazy-load oncontextmenu="return false;" />
       </van-swipe-item>
     </van-swipe>
 
     <div class="album-lists-container">
       <div class="list-header">
-        <p>点滴回忆</p>
+        <p  style="font-family: 'album';font-size: 20px; font-weight: lighter">时光</p>
         <div class="foreach">
 
         </div>

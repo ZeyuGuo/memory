@@ -50,6 +50,7 @@
   .img-center-pos img {
     width: 90%;
     height: 90%;
+    pointer-events:none;
   }
 
 </style>

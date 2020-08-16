@@ -12,3 +12,8 @@
   font-family: "album";
   src: url("../font/album.woff") format("woff");
 }
+
+@font-face {
+  font-family: "christians";
+  src: url("../font/christians.woff") format("woff");
+}

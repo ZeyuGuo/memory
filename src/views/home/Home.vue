@@ -6,7 +6,7 @@
     />
     <Encounter></Encounter>
     <div class="img-center-pos">
-      <img src="@/assets/img/home/home_background.png" />
+      <img src="@/assets/img/home/home_background.png" oncontextmenu="return false;" ondragstart="return false;" />
     </div>
   </div>
 

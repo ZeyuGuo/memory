@@ -15,13 +15,13 @@
           <p>我们相恋了{{loveTime}}天</p>
         </div>
         <div>
-          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg"/>
-          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg"/>
-          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg"/>
+          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
+          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
+          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
           <van-icon class="like-icon" name="like" color="#FF8799" />
-          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg"/>
-          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg"/>
-          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg"/>
+          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
+          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
+          <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
         </div>
       </div>
       <div class="img-inner">

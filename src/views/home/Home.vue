@@ -1,18 +1,20 @@
 <template>
   <div class="home">
     <van-notice-bar mode="closeable"
-                    left-icon="volume-o"
+                    left-icon="like-o"
                     text="答案很长，我准备用一生的时间来回答，你准备好听了吗？"
     />
-
+    <Encounter></Encounter>
     <div class="img-center-pos">
-      <img width="90%" src="@/assets/img/home/home_background.png" />
+      <img src="@/assets/img/home/home_background.png" />
     </div>
   </div>
 
 </template>
 
 <script>
+  import Encounter from "./childComponents/Encounter";
+
   import Vue from 'vue';
   import { NoticeBar,Button } from 'vant';
 
@@ -22,7 +24,7 @@
   export default {
     name: 'Home',
     components: {
-
+      Encounter
     },
     data() {
       return {
@@ -43,6 +45,11 @@
     justify-content: center;
     position: absolute;
     bottom: 50px;
+  }
+
+  .img-center-pos img {
+    width: 90%;
+    height: 90%;
   }
 
 </style>

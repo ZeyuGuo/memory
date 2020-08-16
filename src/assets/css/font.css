@@ -2,3 +2,8 @@
   font-family: "Comic Sans MS";
   src: url('../font/ComicSansMS.ttf');
 }
+
+@font-face {
+  font-family: "home";
+  src: url("../font/home.woff") format("woff");
+}

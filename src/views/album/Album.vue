@@ -45,7 +45,7 @@
     },
     computed: {
       getHeight() {
-        var h = document.body.clientWidth;
+        let h = document.body.clientWidth;
         return h*9/16
       }
     }

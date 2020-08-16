@@ -12,7 +12,7 @@
       </div>
       <div class="inner">
         <div>
-          <p>我们相恋了{{loveTime}}天</p>
+          <p>我们相恋了 <span>{{loveTime}}</span> 天</p>
         </div>
         <div>
           <van-icon name="http://m.xiaoxiaozeyu.online/images/icon/line.svg" oncontextmenu="return false;"/>
@@ -49,7 +49,7 @@
     name: "Encounter",
     data() {
       return {
-        encounterTime: new Date(2020,8,15)
+        encounterTime: new Date(2020,8,10)
       }
     },
     computed: {
@@ -88,8 +88,14 @@
 
   .inner div p {
     margin: 10px 0;
+    font-size: 22px;
+    /*font-weight: bold;*/
+    font-family: 'home';
+  }
+  .inner div p span {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: lighter;
+    font-family: 'Comic Sans MS';
   }
 
   .like-icon {
